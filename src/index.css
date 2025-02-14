@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-display:  "Montserrat", "serif";
+  --bg-custom:"black" 
+}
