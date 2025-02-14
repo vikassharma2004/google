@@ -1,5 +1,5 @@
 
-
+import heroimg from "../../public/weather.webp"
 const Hero = () => {
   return (
 <>
@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 mr-5">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full rounded-lg"
-          src="https://eos.com/wp-content/uploads/2021/07/dry-weather-and-starting-forest-fire.jpg.webp"
+          src={heroimg}
           alt="AI Wildfire Prevention"
         />
       </div>
